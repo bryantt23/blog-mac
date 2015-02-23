@@ -13,6 +13,9 @@ Rails.application.routes.draw do
   
   root 'posts#index'
   
+<<<<<<< HEAD
+>>>>>>> parent of da0fc4f... Add pages
+=======
 >>>>>>> parent of da0fc4f... Add pages
 
 end
