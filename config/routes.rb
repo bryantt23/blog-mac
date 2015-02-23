@@ -14,6 +14,7 @@ Rails.application.routes.draw do
 =======
   
   
+<<<<<<< HEAD
   
   resources :posts
 >>>>>>> parent of b18f1f0... Add comments
@@ -21,6 +22,8 @@ Rails.application.routes.draw do
   root 'posts#index'
   
 <<<<<<< HEAD
+>>>>>>> parent of da0fc4f... Add pages
+=======
 >>>>>>> parent of da0fc4f... Add pages
 =======
 >>>>>>> parent of da0fc4f... Add pages
