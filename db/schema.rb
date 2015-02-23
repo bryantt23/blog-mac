@@ -11,6 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20150223091040) do
 
   create_table "comments", force: :cascade do |t|
@@ -22,6 +23,9 @@ ActiveRecord::Schema.define(version: 20150223091040) do
   end
 
   add_index "comments", ["post_id"], name: "index_comments_on_post_id"
+=======
+ActiveRecord::Schema.define(version: 20150223075117) do
+>>>>>>> parent of b18f1f0... Add comments
 
   create_table "posts", force: :cascade do |t|
     t.string   "title"

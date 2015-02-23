@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
 
   devise_for :users
   resources :posts do
@@ -10,6 +11,12 @@ Rails.application.routes.draw do
 
   get '/about', to: 'pages#about'
 =======
+=======
+  
+  
+  
+  resources :posts
+>>>>>>> parent of b18f1f0... Add comments
   
   root 'posts#index'
   
